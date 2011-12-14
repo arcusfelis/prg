@@ -1,0 +1,6 @@
+ebin
+deps
+*.swp
+*.dump
+*.trace  
+.eunit

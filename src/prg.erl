@@ -109,6 +109,7 @@ do_take([A,B|[C|_]=T], N, X1, X2, X3) ->
         false
     end.
     
+%% @doc Validates selected D, L, N for the list of the generated values.
 check_list([H1| [H2|_]=T], D, L, N) ->
     case generate(H1, D, L, N) of
     H2 ->
