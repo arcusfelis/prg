@@ -7,7 +7,8 @@
 generate(Prev, D, L, N) ->
     (D+Prev*L) rem N.
 
--spec generate(PreviousValue::integer(),
+-spec generate(CountOfElemsInList::integer(),
+        PreviousValue::integer(),
         D::integer(), L::integer(), N::integer()) -> [integer()].
 
 %% @doc Generates the list of the pseudorandom values.
