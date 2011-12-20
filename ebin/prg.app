@@ -4,4 +4,4 @@
               {registered,[]},
               {applications,[kernel,stdlib]},
               {env,[]},
-              {modules,[prg]}]}.
+              {modules,[prg,prg_real]}]}.
